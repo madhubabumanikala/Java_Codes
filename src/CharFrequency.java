@@ -17,7 +17,7 @@ public class CharFrequency {
 
         System.out.println(freqChar);
 
-      //  IntStream.iterate(1,n->n+2).limit(10).skip(2).forEach(System.out::println);
+        IntStream.iterate(1,n->n+2).limit(10).skip(2).forEach(System.out::println);
 
         //str.chars().mapToObj(i->(char)i).distinct().forEach(System.out::println);
 
